@@ -1,0 +1,221 @@
+:root {
+  --linear-grad: linear-gradient(to right, #141E30, #243B55);
+  --grad-clr1: rgb(191, 158, 196);
+  --grad-clr2: rgb(44, 15, 56)B55;
+  
+}
+
+.w-4 {
+    width: 45%;
+  }
+  #body-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .no-b {
+    border: 0px solid white;
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
+  
+  #body-container {
+    margin-top: 60px;
+  }
+  
+  .right-alligned {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .m-10 {
+    margin: 10px;
+  }
+  
+  body {
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    
+    
+    
+    background: -webkit-linear-gradient(
+      to right,
+      rgb(205, 48, 226),
+      rgb(44, 15, 56)
+    );
+  
+    
+    background: linear-gradient(
+      to right,
+      rgb(191, 158, 196),
+      rgb(44, 15, 56)
+    );
+  }
+  
+  
+  .mb-4 {
+    margin-bottom: 1.2rem !important;
+  }
+  
+  .mt-4 {
+    margin-top: 1rem !important;
+  }
+  .p-5 {
+    padding: 1.5rem !important;
+  }
+  
+  .form-control-lg {
+    min-height: calc(1em + 1rem + 2px);
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+  }
+  
+  .py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 3rem !important;
+  }
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
+  }
+
+
+
+
+  /*for log in */
+  .test{
+    display: grid;
+    place-content: center;
+  }
+ 
+ .mt-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+ }
+ form{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+input
+{
+    width: 100%;
+    padding: 10px 10px;
+    background-color:rgb(205, 159, 224);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mt-2
+{
+    position: relative;
+    margin: 8px 0px;
+    width: 100%;
+}
+
+label{
+    position: relative;
+    top: 100%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px; 
+    transition: 0.3s;
+}
+
+ button
+{
+    border-radius: 20px;
+    border: 1px solid var( --grad-clr2);
+    background: rgb(68, 23, 88);
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ .btn-primary{
+  margin-top: 17px;
+  transition: 80ms ease-in;
+  
+ }
+ .btn-primary:hover
+ {
+     background: #FFF;
+     color: rgb(68, 23, 88);
+ }
+ ::placeholder { 
+  color: rgb(56, 56, 56);
+}
+
+
+
+/* for header */
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.nav-item{
+  padding: 20px 20px;
+}
+.px-2{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+
+}
+
+ /* for admin page */
+ .mb-3  {
+   background: rgb(68, 23, 88);
+   color: whitesmoke;
+   border-radius: 10px;
+   border: none;
+ }
+ .form-select-lg{
+  padding: 5px;
+ }
+ table{
+  border-spacing: 0px;
+  width: 100%;
+}
+th{
+  background-color: rgb(68, 23, 88);
+  color: wheat;
+}
+.table td,.table th{
+  padding: .75em;
+  vertical-align: top;
+  text-align: center;
+  border-top: 1px solid --border;
+}
+.table td > a.btn{
+  padding: .3em 1em;
+  font-size: 1.1em;
+  margin: 0.2em;
+}
+.table tr:hover{
+  background-color: rgb(231, 229, 229);
+}
+
+.table tr:hover td > a{
+  box-shadow: none;
+}
+.table .thead-dark th{
+  color: #fff;
+  background-color: rgb(68, 23, 88);
+  border-color: #32383e;
+}
+ 
